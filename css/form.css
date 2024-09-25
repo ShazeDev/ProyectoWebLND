@@ -1,0 +1,48 @@
+#form_dock {
+    margin: 0 auto; 
+    border: 5px solid var(--border-color);
+    font-size: 26px;
+    border-radius: 15px;
+    max-width: 600px;
+    padding: 20px; 
+    font-family: 'Lora';
+    background-color: var(--background-form);
+}
+
+#form_table {
+    width: 100%;
+        font-family: 'Lora'
+}
+
+#form_table label {
+    width: 40%;
+    text-align: left;
+}
+
+#form_table input {
+    width: 60%;
+}
+
+#lista{
+    margin-top: 60px;
+    margin-left: 60px;
+    float: left;
+    color: var(--font-color);
+    font-family: 'Lora';
+    font-size: 26px;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: var(--background-form);
+}
+
+.email{
+    width: 500px;
+}
+
+.id{
+    width: 545px;
+}
+
+.name{
+    width: 345px;
+}

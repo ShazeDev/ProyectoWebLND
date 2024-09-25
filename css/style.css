@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#table_positions{
+    width: 80%;
+    padding: 5px; 
+    margin: auto;    
+}
+
+a{
+    text-decoration: none;
+    cursor: url('../cursor/Blue.cur'), auto;
+}
+
+#td_positions{
+    text-align: center;
+    width: 20%;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Barlow';
+}
+
+#container{
+    margin: auto;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../image/BG.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#home-link,
+#login,
+#register {
+    margin: 0 10px;
+}
+
+
+#td_positions:hover,
+#home-link:hover,
+#register:hover{
+    text-decoration: underline;
+}
+
+
+#menudock{
+    margin: auto;
+    width: 100%;
+
+    font-size: 36px;
+    text-align: center;
+}
+
+#roster_dock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 5px solid var(--border-color);
+    border-radius: 15px;
+}
+
+.champion_icon img {
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.champ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.champion_icon{
+    position: relative;
+}
+
+.champion_icon:hover .cap {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: var(--background-cap);
+    font-size: 24px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.champion_icon:hover .cap {
+    opacity: 1; 
+}
+
+

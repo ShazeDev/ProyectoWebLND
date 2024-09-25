@@ -1,0 +1,6 @@
+:root{
+    --background-cap: rgba(0, 0, 0, 0.5);
+    --border-color: rgb(0,0,0);
+    --font-color: rgb(0, 0, 0);
+    --background-form: rgba(80, 141, 255, 0.3);
+}
